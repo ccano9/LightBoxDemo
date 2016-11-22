@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fd46d9897a52f6d4dbbacffe9fa160b9
 timeCreated: 1479801336
+=======
+guid: 0877af94812774f4f96fc19e2473dcf0
+timeCreated: 1479774642
+>>>>>>> danny
 licenseType: Free
 NativeFormatImporter:
   userData: 
