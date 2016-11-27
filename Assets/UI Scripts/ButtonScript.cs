@@ -13,7 +13,6 @@ public class ButtonScript : MonoBehaviour {
 	}
 
 	public void onClick(){
-		print ("???");
 		if (sliderView.activeSelf) {
 			sliderView.SetActive (false);
 		} else {
