@@ -48,4 +48,9 @@ public class IESSelector : MonoBehaviour {
 
 		}
 	}
+
+	public ArrayList getLightList(){
+		return lightList;
+	}
+		
 }
