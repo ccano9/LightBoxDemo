@@ -144,13 +144,13 @@ public class calcPoint : MonoBehaviour {
 				angle = Vector3.Angle (light, point);
 				distance = Vector3.Distance (light, point);
 				distance = distance - 3;
-				print ("distance for point :" + count + " is: " + distance);
+				//print ("distance for point :" + count + " is: " + distance);
 
 				//this commented part is to account for distance
-				//if (distance < 4) {
+				if (distance < 4) {
 					returnValue = doMath (distance, testLuminInten, angle);
 					calculations.Add (returnValue);
-				//}
+				}
 			}
 
 			//add the value into the dictionary
